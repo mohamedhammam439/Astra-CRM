@@ -3,13 +3,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
 import { useContactStore } from '../../store/contactStore';
-import { Plus, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 export const ContactFilters = () => {
   const {
     filters,
     setFilters,
-    openModal,
     contacts,
     filteredContacts,
     currentUser,
